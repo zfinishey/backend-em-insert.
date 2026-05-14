@@ -26,6 +26,24 @@ async function seedLeiturasIfEmpty() {
       timestamp: new Date('2026-04-01T10:00:00'),
       temperature_c: 27.2,
       humidity_pct: 65.8,
+    },
+    {
+      station_id: 'EM-ARACATUBA-01',
+      timestamp: new Date('2026-04-02T08:00:00'),
+      temperature_c: 23.9,
+      humidity_pct: 74.3,
+    },
+    {
+      station_id: 'EM-ARACATUBA-01',
+      timestamp: new Date('2026-04-02T09:00:00'),
+      temperature_c: 25.1,
+      humidity_pct: 70.6,
+    },
+    {
+      station_id: 'EM-ARACATUBA-01',
+      timestamp: new Date('2026-04-02T10:00:00'),
+      temperature_c: 26.7,
+      humidity_pct: 67.2,
     }
   ]);
 
